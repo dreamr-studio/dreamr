@@ -2,14 +2,14 @@ lockfileVersion: 5.4
 
 specifiers:
   '@tauri-apps/api': ^1.1.0
-  '@tauri-apps/cli': ^1.1.0
-  '@types/node': ^18.7.11
-  '@types/react': ^18.0.17
+  '@tauri-apps/cli': ^1.1.1
+  '@types/node': ^18.8.0
+  '@types/react': ^18.0.21
   '@types/react-dom': ^18.0.6
-  next: ^12.2.5
+  next: ^12.3.1
   react: ^18.2.0
   react-dom: ^18.2.0
-  typescript: ^4.7.4
+  typescript: ^4.8.4
 
 dependencies:
   '@tauri-apps/api': 1.1.0
@@ -19,7 +19,7 @@ dependencies:
 
 devDependencies:
   '@tauri-apps/cli': 1.1.1
-  '@types/node': 18.7.23
+  '@types/node': 18.8.0
   '@types/react': 18.0.21
   '@types/react-dom': 18.0.6
   typescript: 4.8.4
@@ -255,8 +255,8 @@ packages:
       '@tauri-apps/cli-win32-x64-msvc': 1.1.1
     dev: true
 
-  /@types/node/18.7.23:
-    resolution: {integrity: sha512-DWNcCHolDq0ZKGizjx2DZjR/PqsYwAcYUJmfMWqtVU2MBMG5Mo+xFZrhGId5r/O5HOuMPyQEcM6KUBp5lBZZBg==}
+  /@types/node/18.8.0:
+    resolution: {integrity: sha512-u+h43R6U8xXDt2vzUaVP3VwjjLyOJk6uEciZS8OSyziUQGOwmk+l+4drxcsDboHXwyTaqS1INebghmWMRxq3LA==}
     dev: true
 
   /@types/prop-types/15.7.5:
@@ -281,8 +281,8 @@ packages:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
     dev: true
 
-  /caniuse-lite/1.0.30001412:
-    resolution: {integrity: sha512-+TeEIee1gS5bYOiuf+PS/kp2mrXic37Hl66VY6EAfxasIk5fELTktK2oOezYed12H8w7jt3s512PpulQidPjwA==}
+  /caniuse-lite/1.0.30001414:
+    resolution: {integrity: sha512-t55jfSaWjCdocnFdKQoO+d2ct9C59UZg4dY3OnUlSZ447r8pUtIKdp0hpAzrGFultmTC+Us+KpKi4GZl/LXlFg==}
     dev: false
 
   /csstype/3.1.1:
@@ -326,7 +326,7 @@ packages:
     dependencies:
       '@next/env': 12.3.1
       '@swc/helpers': 0.4.11
-      caniuse-lite: 1.0.30001412
+      caniuse-lite: 1.0.30001414
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
