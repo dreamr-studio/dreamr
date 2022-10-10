@@ -1,0 +1,17 @@
+-- CreateTable
+CREATE TABLE "Prompt" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" DATETIME NOT NULL,
+    "text" TEXT NOT NULL
+);
+
+-- CreateTable
+CREATE TABLE "GeneratedImage" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" DATETIME NOT NULL,
+    "promptId" INTEGER NOT NULL,
+    "url" TEXT NOT NULL,
+    CONSTRAINT "GeneratedImage_promptId_fkey" FOREIGN KEY ("promptId") REFERENCES "Prompt" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
+);
